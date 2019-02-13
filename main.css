@@ -1,0 +1,562 @@
+/*principal page*/
+
+.principalimages {
+    background-image: url(photos/collage2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0px;
+}
+
+.principaltittles {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 270px;
+    font-family: 'Inconsolata', monospace;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'Inconsolata', monospace;
+    background-color: black;
+    color: palevioletred;
+    margin: 0px;
+    padding: 50px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.enterbutton {
+    background-color: palevioletred;
+    opacity: 0.8;
+    text-decoration: none;
+    color: black;
+}
+
+.none {
+        color: pink;
+    margin: 0px;
+}
+
+/*second page (books) */
+
+#homemedia {
+    background-image: linear-gradient(#FFC371,#FF5F6D);
+}
+
+#homebooks {
+    margin: 0px;
+    background-color: black;
+    background-attachment: fixed;
+    height: 200px;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+#homemovies {
+    margin: 0px;
+    background-color: black;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+#homemedia2 {
+    background-image: linear-gradient(#FFC371,#FF5F6D);
+
+}
+
+#homemedia3 {
+    background-image: linear-gradient(#FFC371,#FF5F6D);
+
+}
+
+#homemusic {
+    margin: 0px;
+    background-color: black;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+h2 {
+    color: cornflowerblue;
+    margin: 0px;
+    font-size: 50px;
+}
+
+.iconshopping {
+    height: 50px;
+    cursor: pointer;
+}
+
+.bodybooks {
+    margin: 0px;
+}
+
+#filterprice{
+    width: 150px;
+    margin-bottom: 90px;
+}
+
+span {
+    color: pink;
+    font-size: 20px;
+    margin-left: 7px;
+
+}
+
+input {
+    width: 200px;
+    height: 20px;
+
+}
+
+.form {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.submit {
+    padding: 0px;
+    width: 60px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+label {
+    margin-top: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    color: white;
+    background-color: black;
+    padding: 30px;
+    position: static;
+    padding-left: 120px;
+}
+
+.footer a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.tarjetas {
+    height: 25px;
+}
+
+li {
+    list-style: none;
+
+}
+
+.titlecategories {
+    margin-top: auto;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+.list {
+    list-style-type: circle;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px;
+    width: 110px;
+}
+
+.socialmedia {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.media {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.signin {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.sign {
+    margin-bottom: 0px;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.books {
+    height: 200px;
+    width: 150px;
+    margin-top: 20px;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+.movies {
+    height: 200px;
+    width: 150px;
+    margin-top: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.music {
+    height: 200px;
+    width: 150px;
+    margin-top: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    margin-top: 50px;
+    background-color:black;
+    padding: 20px;
+    width: 900px;
+    height: 660px;
+    overflow: scroll;
+}
+
+.names {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    width: 200px;
+    text-transform: uppercase;
+}
+
+.writter {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.price {
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.align {
+    text-align: center;
+}
+
+.carrito {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.nobackground {
+    background-color: white;
+}
+
+.check {
+    display: flex;
+    cursor: pointer;
+    align-content: flex-end;
+}
+
+#searchtext {
+    
+    height: 30px;
+}
+
+#searchtext2 {
+    
+    height: 30px;
+}
+
+#searchtext3 {
+    
+    height: 30px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    width: 300px;
+    margin-top: 50px;
+    padding-left: 25px;
+}
+
+/*shoppingcart page*/
+
+.login {
+    width: 100px;
+    cursor: pointer;
+}
+
+.h22 {
+    color: white;
+    margin: 0px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.h23 {
+    margin-left: 30px;
+}
+
+.buttonsshopping {
+
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.alltotal {
+    display: flex;
+}
+
+.total {
+    margin-left: 1085px;
+    font-size: 30px;
+}
+
+.totalinput {
+    height: 40px;
+    width: 50px;
+    margin-left: 10px;
+
+}
+
+.imagenshoppingcart {
+    width: 150px;
+    height: 200px;
+}
+
+.totalprice{
+    
+    text-align: center;
+    font-size: 20px;
+}
+
+#total {
+    
+    color: black;
+    font-size: 20px;
+}
+
+.flechacontinue{
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    
+}
+
+.buttonsstyleshopping{
+    display: flex;
+}
+
+.vuelta{
+    height: 30px;
+    width: 30px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.imagenesvuelta{
+    display: flex;
+}
+
+.marginvuelta{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.buttonsjuntos{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.buttonsstyleshopping {
+    width: 100px;
+    height: 43px;
+    margin: 30px;
+}
+
+.buy{
+    margin-left: 20px;
+    color: black;
+}
+
+/*information page*/
+
+.info {
+  
+    margin: 90px;
+}
+
+#informationmedia {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.buttonsinfo {
+    display: flex;
+    justify-content: center;
+
+}
+
+.iconandcontinue {
+    display: flex;
+    width: 100px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.buttoninfo {
+    background-color: black;
+    border: none;
+}
+
+.pinfo {
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+#informationbooks{
+    display: flex;
+}
+
+#informationmovies{
+    display: flex;
+}
+
+#informationmusic{
+    
+     display: flex;
+}
+
+.imageinfo{
+    width: 150px !important;
+    height: 200px;
+}
+
+.divnames{
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+
+.classnames{
+    width: 120px;
+    text-transform: capitalize;
+}
+
+/*web responsive*/
+
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+#homebooks {
+    display: inherit;
+    width: 377px;
+    }
+
+.h22 {
+    font-size: 40px;
+    }
+
+.middle {
+    display: inherit;
+    }
+
+.box {
+     width: 365px;
+     margin-left: 5px;
+    }
+
+.signin {
+     margin-left: 100px;
+    }
+
+.principalimages {
+     background-image: url(photos/pjimage.jpg);
+     background-size: 700px;
+    }
+    
+.none { 
+     display: none;
+    }
+    
+.enterbutton { 
+     padding: 12px;
+     margin-bottom: 110px;
+     margin-right: 100px;
+     opacity: 10 ;
+    }
+    
+.principaltittles { 
+    flex-direction: column;
+    margin-top: 80px ;
+    align-items: center;
+    margin-left: 90px;
+    }
+
+#informationbooks {
+        display: flex;
+        flex-direction: column;
+    }
+    
+.info {
+        display: flex;
+        flex-direction: column;
+    }
+    
+.iconandcontinue{
+    
+    margin-left: 60px;
+    margin-top:15px;
+    }
+

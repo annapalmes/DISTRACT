@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="photos/letter-p.png" rel="shortcut icon" sizes="152x152">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+    <title>THE ART PACKER</title>
+
+</head>
+
+<body class="principalimages">
+
+    <!--home-->
+
+    <div id="home" class="bodybooks">
+
+        <h1 style="color:pink;" class="none" class="h22"> the art packer </h1>
+        <div id="home" class="principaltittles" class="onepage">
+            <div data-page="homemedia" class="enterbutton" id="book"> BOOKS </div>
+            <div data-page="homemedia2" class="enterbutton" id="movie"> MOVIES </div>
+            <div data-page="homemedia3" class="enterbutton" id="music"> MUSIC </div>
+        </div>
+
+    </div>
+
+    <!--homemedia-->
+
+    <div id="homemedia" class="bodybooks nobackground">
+
+        <div id="homebooks" class="onepage">
+
+            <div id="titulo">
+                <h2 class="h22" data-page="home"> the art packer </h2>
+            </div>
+            <label> <input type="text" placeholder="search..." id="searchtext"></label>
+            <img data-page="shoppingcart" class="iconshopping" src="photos/basket.png">
+
+        </div>
+
+        <div class="middle">
+
+            <div id="categories" class="categories">
+                <p class="titlecategories"> CATEGORIES</p>
+            </div>
+
+            <div id="box" class="box" v-for="books in betterPrice">
+            </div>
+
+            <div class="signin">
+               
+                <em> FILTER PRICE </em>
+                <div id="filterprice">
+                <input type="range" min="0" max="20" v-model="minimo">
+                </div>
+
+                <p class="sign">SIGN IN</p>
+                <label> name <input type="text" class="form"></label>
+                <label> mail <input type="email" class="form"></label>
+                <label> password <input type="password" class="form"></label>
+                <label> phone number <input type="number" class="form"></label>
+                <input class="submit" type="submit" value="submit">
+            </div>
+
+        </div>
+
+        <div class="media">
+
+            <a href="https://www.facebook.com/" target="_blank"> <img class="socialmedia" src="photos/facebook.png"> </a>
+            <a href="https://www.instagram.com/" target="_blank"> <img class="socialmedia" src="photos/instagram.png"> </a>
+            <a href="https://twitter.com/?lang=en" target="_blank"> <img class="socialmedia" src="photos/twitter.png"> </a>
+
+        </div>
+
+        <div class="footer">
+            <ul>
+                <p class="top"> PAYMENTS METHODS </p>
+                <li> <img class="tarjetas" src="photos/visa.png"> visa</li>
+                <li> <img class="tarjetas" src="photos/paypal.png"> paypal</li>
+                <li> <img class="tarjetas" src="photos/gift-card.png"> gift card</li>
+                <li> <img class="tarjetas" src="photos/mastercard.png"> mastercard</li>
+            </ul>
+            <ul>
+                <p> COMPANY </p>
+                <li><a href="https://www.google.com" target="_blank">about us</a></li>
+                <li><a href="https://www.google.com" target="_blank">work with us</a></li>
+                <li><a href="https://www.google.com" target="_blank">store locator</a></li>
+                <li><a href="https://www.google.com" target="_blank">office</a></li>
+            </ul>
+            <ul>
+                <p> SERVICES </p>
+                <li><a href="https://www.google.com" target="_blank">gift card</a></li>
+                <li><a href="https://www.google.com" target="_blank">alterations</a></li>
+                <li><a href="https://www.google.com" target="_blank">affinity card</a></li>
+                <li><a href="https://www.google.com" target="_blank">gift receipt</a></li>
+            </ul>
+            <ul>
+                <p> POLICIES </p>
+                <li><a href="https://www.google.com" target="_blank">privacy policy</a></li>
+                <li><a href="https://www.google.com" target="_blank">cookies policy</a></li>
+                <li><a href="https://www.google.com" target="_blank">purchase conditions</a></li>
+                <li><a href="https://www.google.com" target="_blank">enviroment policy</a></li>
+            </ul>
+            <ul>
+                <p> CONTACT US </p>
+                <li>900 657 897</li>
+                <li>sales</li>
+                <li>9:30 to 22:00</li>
+                <li>monday to friday</li>
+            </ul>
+
+        </div>
+    </div>
+
+    <!--homemedia2-->
+
+    <div id="homemedia2" class="bodybooks nobackground">
+
+        <div id="homebooks" class="onepage">
+            <div id="titulo">
+                <h2 class="h22" data-page="home"> the art packer </h2>
+            </div>
+
+            <label> <input type="text" id="searchtext2" placeholder="search..."></label>
+            <img data-page="shoppingcart" class="iconshopping" src="photos/basket.png">
+        </div>
+
+        <div class="middle">
+            <div id="categories2" class="categories">
+                <p class="titlecategories"> CATEGORIES</p>
+            </div>
+
+            <div id="box2" class="box">
+            </div>
+
+            <div class="signin">                
+                <p class="sign">SIGN IN</p>
+                <label> name <input type="text" class="form"></label>
+                <label> mail <input type="email" class="form"></label>
+                <label> password <input type="password" class="form"></label>
+                <label> phone number <input type="number" class="form"></label>
+                <input class="submit" type="submit" value="submit">
+            </div>
+        </div>
+
+        <div class="media">
+            <a href="https://www.facebook.com/" target="_blank"> <img class="socialmedia" src="photos/facebook.png"> </a>
+            <a href="https://www.instagram.com/" target="_blank"> <img class="socialmedia" src="photos/instagram.png"> </a>
+            <a href="https://twitter.com/?lang=en" target="_blank"> <img class="socialmedia" src="photos/twitter.png"> </a>
+        </div>
+
+        <div class="footer">
+            <ul>
+                <p class="top"> PAYMENTS METHODS </p>
+                <li> <img class="tarjetas" src="photos/visa.png"> visa</li>
+                <li> <img class="tarjetas" src="photos/paypal.png"> paypal</li>
+                <li> <img class="tarjetas" src="photos/gift-card.png"> gift card</li>
+                <li> <img class="tarjetas" src="photos/mastercard.png"> mastercard</li>
+            </ul>
+            <ul>
+                <p> COMPANY </p>
+                <li><a href="https://www.google.com" target="_blank">about us</a></li>
+                <li><a href="https://www.google.com" target="_blank">work with us</a></li>
+                <li><a href="https://www.google.com" target="_blank">store locator</a></li>
+                <li><a href="https://www.google.com" target="_blank">office</a></li>
+            </ul>
+            <ul>
+                <p> SERVICES </p>
+                <li><a href="https://www.google.com" target="_blank">gift card</a></li>
+                <li><a href="https://www.google.com" target="_blank">alterations</a></li>
+                <li><a href="https://www.google.com" target="_blank">affinity card</a></li>
+                <li><a href="https://www.google.com" target="_blank">gift receipt</a></li>
+            </ul>
+            <ul>
+                <p> POLICIES </p>
+                <li><a href="https://www.google.com" target="_blank">privacy policy</a></li>
+                <li><a href="https://www.google.com" target="_blank">cookies policy</a></li>
+                <li><a href="https://www.google.com" target="_blank">purchase conditions</a></li>
+                <li><a href="https://www.google.com" target="_blank">enviroment policy</a></li>
+            </ul>
+            <ul>
+                <p> CONTACT US </p>
+                <li>900 657 897</li>
+                <li>sales</li>
+                <li>9:30 to 22:00</li>
+                <li>monday to friday</li>
+            </ul>
+        </div>
+    </div>
+
+    <!--homemedia3-->
+
+    <div id="homemedia3" class="bodybooks nobackground">
+        <div id="homebooks" class="onepage">
+            <div id="titulo">
+                <h2 class="h22" data-page="home"> the art packer </h2>
+            </div>
+
+            <label> <input type="text" id="searchtext3" placeholder="search..."><span></span></label>
+            <img data-page="shoppingcart" class="iconshopping" src="photos/basket.png">
+
+        </div>
+        <div class="middle">
+
+            <div id="categories3" class="categories">
+                <p class="titlecategories"> CATEGORIES</p>
+            </div>
+
+            <div id="box3" class="box"> </div>
+
+            <div class="signin">
+                <p class="sign">SIGN IN</p>
+                <label> name <input type="text" class="form"></label>
+                <label> mail <input type="email" class="form"></label>
+                <label> password <input type="password" class="form"></label>
+                <label> phone number <input type="number" class="form"></label>
+                <input class="submit" type="submit" value="submit">
+            </div>
+
+        </div>
+        <div class="media">
+            <a href="https://www.facebook.com/" target="_blank"> <img class="socialmedia" src="photos/facebook.png"> </a>
+            <a href="https://www.instagram.com/" target="_blank"> <img class="socialmedia" src="photos/instagram.png"> </a>
+            <a href="https://twitter.com/?lang=en" target="_blank"> <img class="socialmedia" src="photos/twitter.png"> </a>
+
+        </div>
+        <div class="footer">
+            <ul>
+                <p class="top"> PAYMENTS METHODS </p>
+                <li> <img class="tarjetas" src="photos/visa.png"> visa</li>
+                <li> <img class="tarjetas" src="photos/paypal.png"> paypal</li>
+                <li> <img class="tarjetas" src="photos/gift-card.png"> gift card</li>
+                <li> <img class="tarjetas" src="photos/mastercard.png"> mastercard</li>
+            </ul>
+            <ul>
+                <p> COMPANY </p>
+                <li><a href="https://www.google.com" target="_blank">about us</a></li>
+                <li><a href="https://www.google.com" target="_blank">work with us</a></li>
+                <li><a href="https://www.google.com" target="_blank">store locator</a></li>
+                <li><a href="https://www.google.com" target="_blank">office</a></li>
+            </ul>
+            <ul>
+                <p> SERVICES </p>
+                <li><a href="https://www.google.com" target="_blank">gift card</a></li>
+                <li><a href="https://www.google.com" target="_blank">alterations</a></li>
+                <li><a href="https://www.google.com" target="_blank">affinity card</a></li>
+                <li><a href="https://www.google.com" target="_blank">gift receipt</a></li>
+            </ul>
+            <ul>
+                <p> POLICIES </p>
+                <li><a href="https://www.google.com" target="_blank">privacy policy</a></li>
+                <li><a href="https://www.google.com" target="_blank">cookies policy</a></li>
+                <li><a href="https://www.google.com" target="_blank">purchase conditions</a></li>
+                <li><a href="https://www.google.com" target="_blank">enviroment policy</a></li>
+            </ul>
+            <ul>
+                <p> CONTACT US </p>
+                <li>900 657 897</li>
+                <li>sales</li>
+                <li>9:30 to 22:00</li>
+                <li>monday to friday</li>
+            </ul>
+
+        </div>
+    </div>
+
+    <!--shoppingcart-->
+
+    <div id="shoppingcart" class="bodybooks nobackground">
+
+        <div id="homebooks" class="onepage">
+            <h2 class="h22" data-page="home"> the art packer </h2>
+
+            <button class="login">LOG IN</button>
+        </div>
+
+        <div>
+            <h2 class="h23"> SHOPPING BASKET </h2>
+
+            <div class="container">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="fix">PRODUCT</th>
+                            <th class="fix">DESCRIPTION</th>
+                            <th class="fix">UNITS</th>
+                            <th class="fix">AMOUNT</th>
+                            <th class="fix">DELETE</th>
+                        </tr>
+                    </thead>
+                    <tbody id="products"> </tbody>
+                </table>
+            </div>
+
+            <p class="totalprice"> Total Price : <span id="total"> </span> </p>
+
+            <div class="buttonsshopping">
+                <div class="buttonsjuntos">
+                    <div class="buttonsstyleshopping"> CONTINUE SHOPPING <img class="flechacontinue" src="photos/arrow-point-to-right.png"> </div>
+                    <div class="imagenesvuelta">
+                        <div class="marginvuelta"><img class="vuelta" data-page="homemedia" src="photos/open-book.png"></div>
+                        <div class="marginvuelta"><img class="vuelta" data-page="homemedia2" src="photos/video-player.png"></div>
+                        <div class="marginvuelta"><img class="vuelta" data-page="homemedia3" src="photos/gramophone.png"></div>
+                    </div>
+                </div>
+                <div> <button class="buttonsstyleshopping"><span class="buy">BUY</span></button></div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <ul>
+                <p class="top"> PAYMENTS METHODS </p>
+                <li> <img class="tarjetas" src="photos/visa.png"> visa</li>
+                <li> <img class="tarjetas" src="photos/paypal.png"> paypal</li>
+                <li> <img class="tarjetas" src="photos/gift-card.png"> gift card</li>
+                <li> <img class="tarjetas" src="photos/mastercard.png"> mastercard</li>
+            </ul>
+            <ul>
+                <p> COMPANY </p>
+                <li><a href="https://www.google.com" target="_blank">about us</a></li>
+                <li><a href="https://www.google.com" target="_blank">work with us</a></li>
+                <li><a href="https://www.google.com" target="_blank">store locator</a></li>
+                <li><a href="https://www.google.com" target="_blank">office</a></li>
+            </ul>
+            <ul>
+                <p> SERVICES </p>
+                <li><a href="https://www.google.com" target="_blank">gift card</a></li>
+                <li><a href="https://www.google.com" target="_blank">alterations</a></li>
+                <li><a href="https://www.google.com" target="_blank">affinity card</a></li>
+                <li><a href="https://www.google.com" target="_blank">gift receipt</a></li>
+            </ul>
+            <ul>
+                <p> POLICIES </p>
+                <li><a href="https://www.google.com" target="_blank">privacy policy</a></li>
+                <li><a href="https://www.google.com" target="_blank">cookies policy</a></li>
+                <li><a href="https://www.google.com" target="_blank">purchase conditions</a></li>
+                <li><a href="https://www.google.com" target="_blank">enviroment policy</a></li>
+            </ul>
+            <ul>
+                <p> CONTACT US </p>
+                <li>900 657 897</li>
+                <li>sales</li>
+                <li>9:30 to 22:00</li>
+                <li>monday to friday</li>
+            </ul>
+        </div>
+    </div>
+
+    <!--informationbooks-->
+
+    <div id="information" class="bodybooks nobackground">
+        <div id="homebooks" class="onepage">
+
+            <h2 class="h22" data-page="home"> the art packer </h2>
+
+            <div class="iconandcontinue">
+                <img class="iconshopping" src="photos/basket.png">
+                <div> <button data-page="homemedia" style="color: white">CONTINUE SHOPPING</button> </div>
+            </div>
+        </div>
+
+        <div class="info">
+            <p class="pinfo">INFORMATION</p>
+            <div id="informationbooks">
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <ul>
+                <p class="top"> PAYMENTS METHODS </p>
+                <li> <img class="tarjetas" src="photos/visa.png"> visa</li>
+                <li> <img class="tarjetas" src="photos/paypal.png"> paypal</li>
+                <li> <img class="tarjetas" src="photos/gift-card.png"> gift card</li>
+                <li> <img class="tarjetas" src="photos/mastercard.png"> mastercard</li>
+            </ul>
+            <ul>
+                <p> COMPANY </p>
+                <li><a href="https://www.google.com" target="_blank">about us</a></li>
+                <li><a href="https://www.google.com" target="_blank">work with us</a></li>
+                <li><a href="https://www.google.com" target="_blank">store locator</a></li>
+                <li><a href="https://www.google.com" target="_blank">office</a></li>
+            </ul>
+            <ul>
+                <p> SERVICES </p>
+                <li><a href="https://www.google.com" target="_blank">gift card</a></li>
+                <li><a href="https://www.google.com" target="_blank">alterations</a></li>
+                <li><a href="https://www.google.com" target="_blank">affinity card</a></li>
+                <li><a href="https://www.google.com" target="_blank">gift receipt</a></li>
+            </ul>
+            <ul>
+                <p> POLICIES </p>
+                <li><a href="https://www.google.com" target="_blank">privacy policy</a></li>
+                <li><a href="https://www.google.com" target="_blank">cookies policy</a></li>
+                <li><a href="https://www.google.com" target="_blank">purchase conditions</a></li>
+                <li><a href="https://www.google.com" target="_blank">enviroment policy</a></li>
+            </ul>
+            <ul>
+                <p> CONTACT US </p>
+                <li>900 657 897</li>
+                <li>sales</li>
+                <li>9:30 to 22:00</li>
+                <li>monday to friday</li>
+            </ul>
+
+        </div>
+    </div>
+
+    <!--informationmovies-->
+
+    <div id="information2" class="bodybooks nobackground">
+        <div id="homemovies" class="onepage">
+
+            <h2 class="h22" data-page="home"> the art packer </h2>
+
+            <div class="iconandcontinue">
+                <img class="iconshopping" src="photos/shopping-cart-128.png">
+                <div> <button data-page="homemedia2">CONTINUE SHOPPING</button> </div>
+            </div>
+        </div>
+
+        <div class="info">
+            <p class="pinfo">INFORMATION</p>
+            <div id="informationmovies">
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <ul>
+                <p class="top"> PAYMENTS METHODS </p>
+                <li> <img class="tarjetas" src="photos/visa.png"> visa</li>
+                <li> <img class="tarjetas" src="photos/paypal.png"> paypal</li>
+                <li> <img class="tarjetas" src="photos/gift-card.png"> gift card</li>
+                <li> <img class="tarjetas" src="photos/mastercard.png"> mastercard</li>
+            </ul>
+            <ul>
+                <p> COMPANY </p>
+                <li><a href="https://www.google.com" target="_blank">about us</a></li>
+                <li><a href="https://www.google.com" target="_blank">work with us</a></li>
+                <li><a href="https://www.google.com" target="_blank">store locator</a></li>
+                <li><a href="https://www.google.com" target="_blank">office</a></li>
+            </ul>
+            <ul>
+                <p> SERVICES </p>
+                <li><a href="https://www.google.com" target="_blank">gift card</a></li>
+                <li><a href="https://www.google.com" target="_blank">alterations</a></li>
+                <li><a href="https://www.google.com" target="_blank">affinity card</a></li>
+                <li><a href="https://www.google.com" target="_blank">gift receipt</a></li>
+            </ul>
+            <ul>
+                <p> POLICIES </p>
+                <li><a href="https://www.google.com" target="_blank">privacy policy</a></li>
+                <li><a href="https://www.google.com" target="_blank">cookies policy</a></li>
+                <li><a href="https://www.google.com" target="_blank">purchase conditions</a></li>
+                <li><a href="https://www.google.com" target="_blank">enviroment policy</a></li>
+            </ul>
+            <ul>
+                <p> CONTACT US </p>
+                <li>900 657 897</li>
+                <li>sales</li>
+                <li>9:30 to 22:00</li>
+                <li>monday to friday</li>
+            </ul>
+
+        </div>
+    </div>
+
+    <!--informationmusic-->
+
+    <div id="information3" class="bodybooks nobackground">
+        <div id="homemusic" class="onepage">
+
+            <h2 class="h22" data-page="home"> the art packer </h2>
+
+            <div class="iconandcontinue">
+                <img class="iconshopping" src="photos/shopping-cart-128.png">
+                <div> <button data-page="homemedia3">CONTINUE SHOPPING</button> </div>
+            </div>
+        </div>
+        <div class="info">
+            <p class="pinfo">INFORMATION</p>
+            <div id="informationmusic">
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <ul>
+                <p class="top"> PAYMENTS METHODS </p>
+                <li> <img class="tarjetas" src="photos/visa.png"> visa</li>
+                <li> <img class="tarjetas" src="photos/paypal.png"> paypal</li>
+                <li> <img class="tarjetas" src="photos/gift-card.png"> gift card</li>
+                <li> <img class="tarjetas" src="photos/mastercard.png"> mastercard</li>
+            </ul>
+            <ul>
+                <p> COMPANY </p>
+                <li><a href="https://www.google.com" target="_blank">about us</a></li>
+                <li><a href="https://www.google.com" target="_blank">work with us</a></li>
+                <li><a href="https://www.google.com" target="_blank">store locator</a></li>
+                <li><a href="https://www.google.com" target="_blank">office</a></li>
+            </ul>
+            <ul>
+                <p> SERVICES </p>
+                <li><a href="https://www.google.com" target="_blank">gift card</a></li>
+                <li><a href="https://www.google.com" target="_blank">alterations</a></li>
+                <li><a href="https://www.google.com" target="_blank">affinity card</a></li>
+                <li><a href="https://www.google.com" target="_blank">gift receipt</a></li>
+            </ul>
+            <ul>
+                <p> POLICIES </p>
+                <li><a href="https://www.google.com" target="_blank">privacy policy</a></li>
+                <li><a href="https://www.google.com" target="_blank">cookies policy</a></li>
+                <li><a href="https://www.google.com" target="_blank">purchase conditions</a></li>
+                <li><a href="https://www.google.com" target="_blank">enviroment policy</a></li>
+            </ul>
+            <ul>
+                <p> CONTACT US </p>
+                <li>900 657 897</li>
+                <li>sales</li>
+                <li>9:30 to 22:00</li>
+                <li>monday to friday</li>
+            </ul>
+
+        </div>
+    </div>
+
+    <!--scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="myjson.json"></script>
+    <script type="text/javascript" src="distract.js"></script>
+
+</body>
+
+</html>

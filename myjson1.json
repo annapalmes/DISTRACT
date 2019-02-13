@@ -1,0 +1,217 @@
+{
+
+	"music": [{
+
+			"name": "greatest hits",
+			"singer": "guns n roses",
+			"track": "",
+			"categorie": "rock",
+			"photo": "photos/guns%20n%20roses.jpg",
+			"description": "Greatest Hits is a compilation album by the American hard rock band Guns N' Roses, released on March 23, 2004. Released by Geffen Records in part because of the delay in the making of Chinese Democracy, the album was subject to lawsuits by band member Axl Rose and former band members, in an attempt to block its release due to its track listing.",
+			"price": "6.89"
+
+		},
+		{
+			"name": "breath",
+			"singer": "ariana grande",
+			"track": "",
+			"categorie": "pop",
+			"photo": "photos/ariana%20grande.jpg",
+			"description": "Breathin (stylized in all lowercase) is a song by American singer Ariana Grande from her fourth studio album Sweetener (2018). It was written by Grande, Savan Kotecha, Peter Svensson, and its producer Ilya Salmanzadeh. The song was sent to US contemporary hit radio on September 18, 2018, serving as the album's third single and final single.[2] Lyrically, the song speaks about how breathing is affected when suffering from anxiety and is based on Grande's own experience.",
+			"price": "7.50"
+
+		},
+		{
+			"name": "un poco loco",
+			"singer": "soundtrack coco",
+			"track": "",
+			"categorie": "kids",
+			"photo": "photos/coco.jpg",
+			"description": "It is sung by Miguel and Héctor who find themselves performing on the fly at a music contest in the Land of the Dead, unaware that Pepita helped the Riveras track them down successfully. Because of this, Miguel is unable to collect his reward once he wins and instead flees the area to evade his family.",
+			"price": "5.98"
+
+		},
+		{
+			"name": "serenades",
+			"singer": "tchaikovsky",
+			"track": "",
+			"categorie": "classical",
+			"photo": "photos/tchaikovsky.jpg",
+			"description": "Tchaikovsky intended the first movement to be an imitation of Mozart's style, and it was based on the form of the classical sonatina, with a slow introduction.The stirring 36-bar Andante introduction is marked sempre marcatissimo and littered with double-stopping in the violins and violas, forming towering chordal structures. This introduction is restated at the end of the movement, and then reappears, transformed, in the coda of the fourth movement, tying the entire work together.",
+			"price": "8.65"
+
+		},
+		{
+			"name": "more life",
+			"singer": "drake",
+			"track": "",
+			"categorie": "hip-hop/rap",
+			"photo": "photos/drake.jpg",
+			"description": "More Life is a commercial mixtape by Canadian rapper Drake. Described and marketed as a playlist,[4][5] some publications have referred to it as a mixtape.It was released on March 18, 2017, by Cash Money Records, Republic Records and Young Money Entertainment.Production of More Life was handled by a variety of record producers, including 40, Frank Dukes, Boi-1da, Murda Beatz, T-Minus, Nineteen85 and Kanye West, among others. An ensemble of guest vocalists also appear, including Young Thug, Giggs, Skepta, Quavo, Travis Scott, 2 Chainz, Kanye West, Jorja Smith, Sampha and PartyNextDoor.[12] The songs on More Life feature a broad range of genres, including hip hop, R&B, dancehall, grime, trap, Afrobeat,[13] and pop.[14] The mixtape was supported by five singles: Fake Love, Passionfruit, Free Smoke, Portland and Glow.More Life received generally positive reviews[6] and debuted at number one on the US Billboard 200, becoming his seventh consecutive number one album, while also breaking several streaming records.",
+			"price": "7.98"
+
+		},
+		{
+			"name": "no tourists",
+			"singer": "the prodigy",
+			"track": "",
+			"categorie": "electronic",
+			"photo": "photos/the%20prodogy.jpg",
+			"description": "No Tourists is the seventh studio album by English electronic music band The Prodigy, released on 2 November 2018 on Take Me to the Hospital, their independent label managed by BMG. The group began supporting the album with a world tour from November 2018. The album debuted at No. 1 on the UK Albums Chart, their seventh consecutive studio album to do so.",
+			"price": "5.68"
+
+		},
+		{
+			"name": "kamikaze",
+			"singer": "eminem",
+			"track": "",
+			"categorie": "hip-hop/rap",
+			"photo": "photos/eminem.jpeg",
+			"description": "Kamikaze is the tenth studio album by American rapper Eminem. Previously unannounced, the album was released on August 31, 2018 by Aftermath Entertainment, Interscope Records, and Shady Records. The album features guest appearances from Joyner Lucas, Royce da 5'9, Jessie Reyez, and uncredited vocals by Justin Vernon. Eminem, credited as Slim Shady, and Dr. Dre served as executive producers, while production for individual tracks comes from a variety of musicians.",
+			"price": "7.93"
+
+		}
+	],
+
+	"movies": [{
+
+			"name": "the meg",
+			"director": "jon turteltaub",
+			"video": " ",
+			"categorie": "action",
+			"photo": "photos/megalodon.jpg",
+			"description": "A deep-sea submersible -- part of an international undersea observation program -- has been attacked by a massive creature, previously thought to be extinct, and now lies disabled at the bottom of the deepest trench in the Pacific ... with its crew trapped inside.  With time running out, expert deep sea rescue diver Jonas Taylor (Jason Statham) is recruited by a visionary Chinese oceanographer (Winston Chao), against the wishes of his daughter Suyin (Li Bingbing), to save the crew -- and the ocean itself -- from this unstoppable threat: a pre-historic 75-foot-long shark known as the Megalodon.  What no one could have imagined is that, years before, Taylor had encountered this same terrifying creature.  Now, teamed with Suyin, he must confront his fears and risk his own life to save everyone trapped below",
+			"price": "10"
+
+		},
+		{
+
+			"name": "book club",
+			"director": "bil holderman",
+			"video": " ",
+			"categorie": "comedy",
+			"photo": "photos/book%20.jpg",
+			"description": "Four longtime friends and book club members Diane Keaton, Jane Fonda, Candice Bergen and Mary Steenburgen have their lives upended when they aim to spice up their mundane routines by reading the provocative bestseller Fifty Shades of Grey. With newfound confidence, they each begin to come alive as exciting romances are ignited and old flames are rekindled. Through it all, the ladies inspire one other to make this next stage of their lives the best and steamiest thus far.",
+			"price": "8.89"
+
+		},
+		{
+
+			"name": "alpha",
+			"director": "albert hughes",
+			"video": " ",
+			"categorie": "drama",
+			"photo": "photos/alpha.jpg",
+			"description": "An epic adventure set in the last Ice Age, ALPHA tells a fascinating, visually stunning story that shines a light on the origins of man's best friend. While on his first hunt with his tribe's most elite group, a young man is injured and must learn to survive alone in the wilderness. Reluctantly taming a lone wolf abandoned by its pack, the pair learn to rely on each other and become unlikely allies, enduring countless dangers and overwhelming odds in order to find their way home before winter arrives.",
+			"price": "10.50"
+
+		},
+		{
+
+			"name": "the nun",
+			"director": "corin hardy",
+			"video": " ",
+			"categorie": "horror",
+			"photo": "photos/the%20nun.jpg",
+			"description": "When a young nun at a cloistered abbey in Romania takes her own life, a priest with a haunted past and a novitiate on the threshold of her final vows are sent by the Vatican to investigate. Together they uncover the order's unholy secret. Risking not only their lives but their faith and their very souls, they confront a malevolent force in the form of the same demonic nun that first terrorized audiences in 'The Conjuring 2,' as the abbey becomes a horrific battleground between the living and the damned.",
+			"price": "11.63"
+
+		},
+		{
+
+			"name": "incredibles 2",
+			"director": "brad bird",
+			"video": " ",
+			"categorie": "kids",
+			"photo": "photos/incredible.jpg",
+			"description": "While the Parr family has accepted its collective calling as superheroes, the fact remains that their special heroism is still illegal. After they are arrested after unsuccessfully trying to stop the Underminer, their future seems bleak. However, the wealthy Deavor siblings of Devtech offer new hope with a bold project to rehabilitate the public image and legal status of Supers, with Elastigirl being assigned on point to be the shining example. Now having agreed for now to stay at home to care of the kids, Mr. Incredible finds domestic life a daunting challenge, especially with baby Jack-Jack's newly emerged powers making him almost impossible to manage. However, Elastigirl soon has her own concerns dealing with the menace of a new supervillain, Screenslaver, who is wreaking havoc with his mind control abilities. Now, Elastigirl must solve the mystery of this enemy, who has malevolent designs on the world with the Parr family and friends key targets of this evil.",
+			"price": "9.20"
+
+		},
+		{
+
+			"name": "new year's eve",
+			"director": "garry marshall",
+			"video": " ",
+			"categorie": "romance",
+			"photo": "photos/newyears.jpg",
+			"description": "Set during New Year's Eve in New York city, this movie follows several people and how the day affects them. Kim is a single mother who still thinks of her daughter, Hailey as a child who wants to go out with a boy so that she could kiss him at midnight. Claire, who is in charge of the city's annual tradition, the ball drop on Times Square. And when something goes wrong she has to ask an electrician, who was fired, to come and fix it. Laura, a chef who is cooking the New year's Eve party for a record company who runs into Jensen, her ex who's a singer and performing at the party. While he tries to apologize for how things ended, she refuses to accept it. Ingrid, a woman who works at the record company, after having a near death experience, decides to quit her job and asks a young messenger, Paul to help her fulfill her resolutions. And at a hospital, Stan, a man who is in the final stages of cancer, only wishes to see the ball drop. Also Griffin and Tess, a couple who are expecting, want to be the ones who give birth first after New Year because of the available cash prize; but another couple is also about to give birth. Randy a man who's not exactly fond of the holiday because of something that happened, finds himself trapped in an elevator with a singer who is one of Jensen's back up singers when he performs at Times Square. And Sam, son of the owner of the record company, who is out of town and is trying to get back to the city so that he could give a speech at the party, but when he has an accident and since it's a holiday, his car can't be fixed so he hitches a ride with some people going to the city. But it seems he has another reason why he needs to get back.",
+			"price": "7.90"
+
+		},
+		{
+			"name": "ice age",
+			"director": "Chris Wedge",
+			"video": "",
+			"categorie": "kids",
+			"photo": "photos/ice%20age.jpg",
+			"description": "A saber-toothed squirrel known as Scrat attempts to find a place to store his single acorn. Eventually, as he tries to stomp it into the ground, he causes a large crack in the ground that extends for miles before setting off a large avalanche which nearly crushes him. He barely escapes, but finds himself stepped on by a herd of prehistoric animals migrating south in order to escape the forthcoming ice age. Sid, a clumsy ground sloth, is left behind by his family and decides to move on by himself but is attacked by two prehistoric rhinos whom he angered by ruining their meal. Sid is soon saved by Manny, an agitated woolly mammoth heading north, who fights the rhinos off and continues his path. Not wanting to be alone and unprotected, Sid follows Manny. Meanwhile, Soto, the leader of a pack of saber-toothed tigers, wants revenge on a group of humans for killing half of his pack, by eating the chief's infant son,[2] alive. Soto leads a raid on the human camp, during which the baby's mother is separated from everyone else and jumps down a waterfall upon being cornered by Soto's lieutenant, Diego. As punishment for his failure, Diego is sent to find and retrieve the baby.",
+			"price": "8.98"
+		}
+	],
+
+	"books": [{
+			"name": "freddie mercury",
+			"writter": "alfonso casas",
+			"categorie": "comic",
+			"photo": "photos/freddiemercury.jpeg",
+			"description": "Who has not crowed I Want To Break Free? Or dramatized with total delivery Bohemian Rapsody? Behind these songs, which are part of the history of music and our personal history, there is a proper name: Freddie Mercury. With his mustache, his yellow jacket and his unmistakable voice, the leader of Queen is an icon for a generation, who danced his catchy melodies and mourned his death in 1991.But who was Freddie? What is your story? In this illustrated biography, Alfonso Casas accompanies Freddie Mercury from Tanzania, where he was born, to the United Kingdom, where he died and became immortal singing Show Must Go On. His charisma on stage, his impressive vocal range and his iconic looks broke with the classic model of rock star, making it clear that a person can go out of the established and even then - or precisely for that reason - continue to triumph. Because where others were simply eccentric, Freddie Mercury was free",
+			"price": "6.35"
+
+		}, {
+
+			"name": "yo, julia",
+			"writter": "santiago posteguillo",
+			"categorie": "history ",
+			"photo": "photos/yojulia.jpeg",
+			"description": "192d.C. Several men fight for an empire, but Julia, daughter of kings, mother of Caesars and wife of emperor, thinks about something bigger: a dynasty. Rome is under the control of Commodus, a mad emperor. The Senate is plotted to finish with the tyrant and the most powerful military governors could give a coup d'etat. Albino is Britania, Severo on the Danube or Nigro in Syria. Comfortable retains his wife to prevent their rebellion and Julia, the wife of Severo, thus becomes a hostage.Suddenly, Rome burns. A fire ravages the city. Is it a disaster or an opportunity? Five men are ready to fight to the death for power. They think the game is about to start. But for Julia the game is about to start. He knows that only a woman can forge a dynasty.",
+			"price": "13.89"
+
+		}, {
+
+			"name": "the tales of beedle the bard",
+			"writter": "jk rowling",
+			"categorie": "juvenile",
+			"photo": "photos/rowling.jpeg",
+			"description": "The Tale of the Three Brothers is a story about, well, three brothers. They come across a river to deep and quick to cross. But these brothers are wizards, and magic a bridge to walk across. In the middle of the bridge, a shadowes figure appears. This figure is DEath, and he feels as if these brothers had cheated him at his own game. Death fakely congratulates the brothers for successfully evading him and offers them each a prize. The first and eldest brother asks for a wand more powerful than all others that lie before it, so Death creates a wand from  an elder tree near the stream. The second brother asks for an item that can bring back the dead, and so Death plucks a stone from the riverbed and tells the second brother it has the power to do so. The third brother, also the wisest and most clever, asks for an object to hide him from all creatures' sight, and so death hands over his own cloak of invisibility. The brothers head their seperate ways, but only one of them lives to their old age. Want to find out what happened to the other brothers? Read the book!",
+			"price": "9.99"
+
+		}, {
+
+			"name": "12 rules to live",
+			"writter": "jordan peterson",
+			"categorie": "self help",
+			"photo": "photos/12reglas.png",
+			"description": "Humorous, surprising and informative, Dr. Peterson tells us why skateboarding boys and girls must be left alone, what terrible fate awaits those who criticize too easily, and why you should always pet a cat when you meet one on the street.  What does the nervous system of the lowly lobster have to tell us about standing up straight (with our shoulders back) and about success in life? Why did ancient Egyptians worship the capacity to pay careful attention as the highest of gods? What dreadful paths do people tread when they become resentful, arrogant and vengeful? Dr. Peterson journeys broadly, discussing discipline, freedom, adventure and responsibility, distilling the world's wisdom into 12 practical and profound rules for life. 12 Rules for Life shatters the modern commonplaces of science, faith and human nature, while transforming and ennobling the mind and spirit of its readers.",
+			"price": "12.76"
+
+		}, {
+
+			"name": "the wealthiest man in babylon",
+			"writter": "george clason",
+			"categorie": "economy",
+			"photo": "photos/rico.jpeg",
+			"description": "The ancient Babylonians were the first people to discover the universal laws of prosperity. In his classic bestseller, The Richest Man in Babylon, George S. Clason reveals their secrets for creating, growing, and preserving wealth. Through these entertaining tales of merchants, tradesmen, and herdsmen, you'll learn how to keep more out what you earn; get out of debt; put your money to work; attract good luck; choose wise investments; and safeguard a lasting fortune. This is a beautifully-designed edition of the complete, classic work. (A simplified version is also available: The Richest Man in Babylon: Six Laws of Wealth by Charles Conrad.) ",
+			"price": "12.99"
+
+		}, {
+
+			"name": "french grammar",
+			"writter": "marie fortes",
+			"categorie": "lenguage",
+			"photo": "photos/frances.jpg",
+			"description": "Long trusted as the most comprehensive, up-to-date and user-friendly grammar available, French Grammar and Usage is a complete guide to French as it is written and spoken today. It includes clear descriptions of all the main grammatical phenomena of French, and their use, illustrated by numerous examples taken from contemporary French, and distinguishes the most common forms of usage, both formal and informal.",
+			"price": "10.64"
+
+		},
+		{
+			"name": "the perfume",
+			"writter": "patrick suskind",
+			"categorie": "literatura",
+			"photo": "photos/elperfume.jpeg",
+			"description": "Grenouille is born to a fishwife mother in Paris in the early eighteenth century. He is delivered behind his mother's fish stall and is immediately abandoned to die. The baby, who strangely has no scent, cries out and is saved by onlookers. His mother is executed for this attempt and for her previously successful infanticides, leaving Grenouille, a bastard, alone in the world. He is brought up in a sort of home orphanage, tended together with several other orphans by an emotionally damaged woman named Madame Gaillard. At the age of eight he is given in apprenticeship to a tanner, Grimal, where he is almost worked to death. After having survived anthrax, and thus becoming more useful in a tannery, he is treated marginally better and is given some slight freedom. Grenouille roams the city of Paris, searching for new scents, because he has the most gifted nose in the world",
+			"price": "14.80"
+
+		}
+	]
+}
